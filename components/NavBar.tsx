@@ -4,7 +4,7 @@ import NavItems from "./NavItems"
 
 const NavBar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar bg-zinc-100">
             <Link href='/' >
                 <div className="flex items-center gap-2.5 cursor-pointer">
                     <Image src='/images/logo1.png' height={64} width={64} alt="logo" />
